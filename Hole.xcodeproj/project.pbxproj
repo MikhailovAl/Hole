@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		A7C84E85266E233300473A35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84E84266E233300473A35 /* AppDelegate.swift */; };
-		A7C84E87266E233300473A35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84E86266E233300473A35 /* SceneDelegate.swift */; };
-		A7C84E89266E233300473A35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84E88266E233300473A35 /* ViewController.swift */; };
+		A7C84E89266E233300473A35 /* HoleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84E88266E233300473A35 /* HoleTableViewController.swift */; };
 		A7C84E8C266E233300473A35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C84E8A266E233300473A35 /* Main.storyboard */; };
 		A7C84E8E266E233600473A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C84E8D266E233600473A35 /* Assets.xcassets */; };
 		A7C84E91266E233600473A35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C84E8F266E233600473A35 /* LaunchScreen.storyboard */; };
+		A7C84E9E266E251400473A35 /* HoleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84E9D266E251400473A35 /* HoleTableViewCell.swift */; };
+		A7C84EA1266E252500473A35 /* HoleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C84EA0266E252500473A35 /* HoleTableViewCell.xib */; };
+		A7C84EA4266E29F100473A35 /* UITableView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84EA3266E29F100473A35 /* UITableView+extension.swift */; };
+		A7C84EAE266E3FAD00473A35 /* HoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84EAD266E3FAD00473A35 /* HoleViewController.swift */; };
+		A7C84EB9266F4A0500473A35 /* GradientHoleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84EB8266F4A0500473A35 /* GradientHoleTableViewController.swift */; };
+		A7C84EBE266F4ABD00473A35 /* GradientHoleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84EBD266F4ABD00473A35 /* GradientHoleTableViewCell.swift */; };
+		A7C84EC2266F4AC700473A35 /* GradientHoleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7C84EC1266F4AC700473A35 /* GradientHoleTableViewCell.xib */; };
+		A7C84EC5266F4DFD00473A35 /* UIImageView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C84EC4266F4DFD00473A35 /* UIImageView+extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A7C84E81266E233300473A35 /* PerforatedTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerforatedTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C84E81266E233300473A35 /* Hole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hole.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C84E84266E233300473A35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A7C84E86266E233300473A35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A7C84E88266E233300473A35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7C84E88266E233300473A35 /* HoleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleTableViewController.swift; sourceTree = "<group>"; };
 		A7C84E8B266E233300473A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A7C84E8D266E233600473A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7C84E90266E233600473A35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7C84E92266E233600473A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C84E9D266E251400473A35 /* HoleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleTableViewCell.swift; sourceTree = "<group>"; };
+		A7C84EA0266E252500473A35 /* HoleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoleTableViewCell.xib; sourceTree = "<group>"; };
+		A7C84EA3266E29F100473A35 /* UITableView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+extension.swift"; sourceTree = "<group>"; };
+		A7C84EAD266E3FAD00473A35 /* HoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoleViewController.swift; sourceTree = "<group>"; };
+		A7C84EB8266F4A0500473A35 /* GradientHoleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientHoleTableViewController.swift; sourceTree = "<group>"; };
+		A7C84EBD266F4ABD00473A35 /* GradientHoleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientHoleTableViewCell.swift; sourceTree = "<group>"; };
+		A7C84EC1266F4AC700473A35 /* GradientHoleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GradientHoleTableViewCell.xib; sourceTree = "<group>"; };
+		A7C84EC4266F4DFD00473A35 /* UIImageView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +54,7 @@
 		A7C84E78266E233300473A35 = {
 			isa = PBXGroup;
 			children = (
-				A7C84E83266E233300473A35 /* PerforatedTable */,
+				A7C84E83266E233300473A35 /* Hole */,
 				A7C84E82266E233300473A35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +62,70 @@
 		A7C84E82266E233300473A35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A7C84E81266E233300473A35 /* PerforatedTable.app */,
+				A7C84E81266E233300473A35 /* Hole.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A7C84E83266E233300473A35 /* PerforatedTable */ = {
+		A7C84E83266E233300473A35 /* Hole */ = {
 			isa = PBXGroup;
 			children = (
-				A7C84E84266E233300473A35 /* AppDelegate.swift */,
-				A7C84E86266E233300473A35 /* SceneDelegate.swift */,
-				A7C84E88266E233300473A35 /* ViewController.swift */,
-				A7C84E8A266E233300473A35 /* Main.storyboard */,
-				A7C84E8D266E233600473A35 /* Assets.xcassets */,
-				A7C84E8F266E233600473A35 /* LaunchScreen.storyboard */,
 				A7C84E92266E233600473A35 /* Info.plist */,
+				A7C84E8D266E233600473A35 /* Assets.xcassets */,
+				A7C84E84266E233300473A35 /* AppDelegate.swift */,
+				A7C84ECD266F663800473A35 /* Storyboards */,
+				A7C84ECC266F662700473A35 /* Controllers */,
+				A7C84EA9266E2C9500473A35 /* Cells */,
+				A7C84EA7266E2A0000473A35 /* Extensions */,
 			);
-			path = PerforatedTable;
+			path = Hole;
+			sourceTree = "<group>";
+		};
+		A7C84EA7266E2A0000473A35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7C84EA3266E29F100473A35 /* UITableView+extension.swift */,
+				A7C84EC4266F4DFD00473A35 /* UIImageView+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A7C84EA9266E2C9500473A35 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A7C84E9D266E251400473A35 /* HoleTableViewCell.swift */,
+				A7C84EA0266E252500473A35 /* HoleTableViewCell.xib */,
+				A7C84EBD266F4ABD00473A35 /* GradientHoleTableViewCell.swift */,
+				A7C84EC1266F4AC700473A35 /* GradientHoleTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A7C84ECC266F662700473A35 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7C84EAD266E3FAD00473A35 /* HoleViewController.swift */,
+				A7C84E88266E233300473A35 /* HoleTableViewController.swift */,
+				A7C84EB8266F4A0500473A35 /* GradientHoleTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A7C84ECD266F663800473A35 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A7C84E8A266E233300473A35 /* Main.storyboard */,
+				A7C84E8F266E233600473A35 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A7C84E80266E233300473A35 /* PerforatedTable */ = {
+		A7C84E80266E233300473A35 /* Hole */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A7C84E95266E233600473A35 /* Build configuration list for PBXNativeTarget "PerforatedTable" */;
+			buildConfigurationList = A7C84E95266E233600473A35 /* Build configuration list for PBXNativeTarget "Hole" */;
 			buildPhases = (
 				A7C84E7D266E233300473A35 /* Sources */,
 				A7C84E7E266E233300473A35 /* Frameworks */,
@@ -82,9 +135,9 @@
 			);
 			dependencies = (
 			);
-			name = PerforatedTable;
+			name = Hole;
 			productName = PerforatedTable;
-			productReference = A7C84E81266E233300473A35 /* PerforatedTable.app */;
+			productReference = A7C84E81266E233300473A35 /* Hole.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A7C84E7C266E233300473A35 /* Build configuration list for PBXProject "PerforatedTable" */;
+			buildConfigurationList = A7C84E7C266E233300473A35 /* Build configuration list for PBXProject "Hole" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A7C84E80266E233300473A35 /* PerforatedTable */,
+				A7C84E80266E233300473A35 /* Hole */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +180,8 @@
 				A7C84E91266E233600473A35 /* LaunchScreen.storyboard in Resources */,
 				A7C84E8E266E233600473A35 /* Assets.xcassets in Resources */,
 				A7C84E8C266E233300473A35 /* Main.storyboard in Resources */,
+				A7C84EC2266F4AC700473A35 /* GradientHoleTableViewCell.xib in Resources */,
+				A7C84EA1266E252500473A35 /* HoleTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C84E89266E233300473A35 /* ViewController.swift in Sources */,
+				A7C84E89266E233300473A35 /* HoleTableViewController.swift in Sources */,
+				A7C84EB9266F4A0500473A35 /* GradientHoleTableViewController.swift in Sources */,
+				A7C84EC5266F4DFD00473A35 /* UIImageView+extension.swift in Sources */,
 				A7C84E85266E233300473A35 /* AppDelegate.swift in Sources */,
-				A7C84E87266E233300473A35 /* SceneDelegate.swift in Sources */,
+				A7C84EBE266F4ABD00473A35 /* GradientHoleTableViewCell.swift in Sources */,
+				A7C84E9E266E251400473A35 /* HoleTableViewCell.swift in Sources */,
+				A7C84EA4266E29F100473A35 /* UITableView+extension.swift in Sources */,
+				A7C84EAE266E3FAD00473A35 /* HoleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,12 +348,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SGJ5CN8GHY;
-				INFOPLIST_FILE = PerforatedTable/Info.plist;
+				INFOPLIST_FILE = Hole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.PerforatedTable;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikhailov-al.hole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +368,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SGJ5CN8GHY;
-				INFOPLIST_FILE = PerforatedTable/Info.plist;
+				INFOPLIST_FILE = Hole/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.PerforatedTable;
+				PRODUCT_BUNDLE_IDENTIFIER = "mikhailov-al.hole";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A7C84E7C266E233300473A35 /* Build configuration list for PBXProject "PerforatedTable" */ = {
+		A7C84E7C266E233300473A35 /* Build configuration list for PBXProject "Hole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7C84E93266E233600473A35 /* Debug */,
@@ -331,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A7C84E95266E233600473A35 /* Build configuration list for PBXNativeTarget "PerforatedTable" */ = {
+		A7C84E95266E233600473A35 /* Build configuration list for PBXNativeTarget "Hole" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A7C84E96266E233600473A35 /* Debug */,

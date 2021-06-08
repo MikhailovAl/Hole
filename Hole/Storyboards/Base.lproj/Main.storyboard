@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9LR-Fd-wnn">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Hole View Controller-->
+        <scene sceneID="fuj-wT-HcF">
+            <objects>
+                <viewController id="X5g-VR-Upc" customClass="HoleViewController" customModule="Hole" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5fz-tM-nn6">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iu5-Fj-l0h">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1BE-k4-gp8" userLabel="Hole View">
+                                <rect key="frame" x="37" y="278" width="340" height="340"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="340" id="VM8-DC-Qfe"/>
+                                    <constraint firstAttribute="width" secondItem="1BE-k4-gp8" secondAttribute="height" multiplier="1:1" id="uwm-P7-UW8"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AkW-Eo-hJD" userLabel="Front View">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yJH-5n-RM2"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yJH-5n-RM2" firstAttribute="leading" secondItem="AkW-Eo-hJD" secondAttribute="leading" id="0Wz-ni-QoV"/>
+                            <constraint firstItem="Iu5-Fj-l0h" firstAttribute="top" secondItem="5fz-tM-nn6" secondAttribute="top" id="83A-Fo-0xt"/>
+                            <constraint firstItem="AkW-Eo-hJD" firstAttribute="trailing" secondItem="yJH-5n-RM2" secondAttribute="trailing" id="ALS-M8-tCC"/>
+                            <constraint firstAttribute="bottom" secondItem="Iu5-Fj-l0h" secondAttribute="bottom" id="CjI-bt-aSj"/>
+                            <constraint firstItem="AkW-Eo-hJD" firstAttribute="top" secondItem="5fz-tM-nn6" secondAttribute="top" id="JJS-qi-o5F"/>
+                            <constraint firstItem="1BE-k4-gp8" firstAttribute="centerX" secondItem="yJH-5n-RM2" secondAttribute="centerX" id="Ja1-aC-lOU"/>
+                            <constraint firstItem="1BE-k4-gp8" firstAttribute="centerY" secondItem="5fz-tM-nn6" secondAttribute="centerY" id="JhL-qj-ld2"/>
+                            <constraint firstItem="Iu5-Fj-l0h" firstAttribute="leading" secondItem="yJH-5n-RM2" secondAttribute="leading" id="NpD-aS-WLL"/>
+                            <constraint firstItem="yJH-5n-RM2" firstAttribute="trailing" secondItem="Iu5-Fj-l0h" secondAttribute="trailing" id="Tne-e0-o0r"/>
+                            <constraint firstAttribute="bottom" secondItem="AkW-Eo-hJD" secondAttribute="bottom" id="bfP-Yj-paP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gradientView" destination="Iu5-Fj-l0h" id="nil-iY-QCr"/>
+                        <outlet property="holeView" destination="1BE-k4-gp8" id="WBc-DD-nfg"/>
+                        <outlet property="whiteView" destination="AkW-Eo-hJD" id="2Se-52-rP5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pDh-yQ-W5v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-996" y="102"/>
+        </scene>
+        <!--Hole Table View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HoleTableViewController" customModule="Hole" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="VJj-n0-MBP">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0e6-Ok-ypM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VJj-n0-MBP" firstAttribute="top" secondItem="0e6-Ok-ypM" secondAttribute="top" id="5ad-Kg-2SD"/>
+                            <constraint firstItem="VJj-n0-MBP" firstAttribute="leading" secondItem="0e6-Ok-ypM" secondAttribute="leading" id="bcf-ta-iB5"/>
+                            <constraint firstItem="0e6-Ok-ypM" firstAttribute="bottom" secondItem="VJj-n0-MBP" secondAttribute="bottom" id="i8o-us-HCV"/>
+                            <constraint firstItem="0e6-Ok-ypM" firstAttribute="trailing" secondItem="VJj-n0-MBP" secondAttribute="trailing" id="xAK-G1-O4O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="VJj-n0-MBP" id="7fe-hX-WG3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-293" y="102"/>
+        </scene>
+        <!--Gradient Hole Table View Controller-->
+        <scene sceneID="Pdq-2V-GVC">
+            <objects>
+                <viewController id="9LR-Fd-wnn" customClass="GradientHoleTableViewController" customModule="Hole" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Sy-6v-Zxh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DAo-7c-czd">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sGr-Mu-cZJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="sGr-Mu-cZJ" firstAttribute="bottom" secondItem="DAo-7c-czd" secondAttribute="bottom" id="BrS-1w-K1J"/>
+                            <constraint firstItem="DAo-7c-czd" firstAttribute="leading" secondItem="sGr-Mu-cZJ" secondAttribute="leading" id="GCW-6m-H4U"/>
+                            <constraint firstItem="DAo-7c-czd" firstAttribute="top" secondItem="sGr-Mu-cZJ" secondAttribute="top" id="jIb-9a-JBh"/>
+                            <constraint firstItem="sGr-Mu-cZJ" firstAttribute="trailing" secondItem="DAo-7c-czd" secondAttribute="trailing" id="n6Y-Ne-jBh"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="DAo-7c-czd" id="Vvy-qa-UVM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vh0-mE-Dza" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="458" y="102"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
