@@ -1,4 +1,4 @@
-## Код к статье ["Дырявим" вьюхи на Swift](https://mikhailoval.medium.com/дырявим-вьюхи-на-swift-1fbad011c63b)
+## Код к статье ["Дырявим" вьюхи на Swift"](https://mikhailoval.medium.com/дырявим-вьюхи-на-swift-1fbad011c63b)
 <br>
 <strong>Вопрос:</strong> Что еще за “дырка” такая?
 <br>
